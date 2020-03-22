@@ -41,7 +41,7 @@ class CurrentWeatherFragment : Fragment() {
 
 
         GlobalScope.launch(Dispatchers.Main) {
-            val requestCall = destinationServices.getCurrentWeather("New York").await()
+            val requestCall = destinationServices.getCurrentWeather("New York", "m").await()
             text_view_res.text = requestCall.location.country
             text_view_res.text = requestCall.location.country
         }

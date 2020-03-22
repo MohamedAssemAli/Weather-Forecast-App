@@ -12,7 +12,8 @@ interface ApixuWeatherApiService {
 
     @GET("current")
     fun getCurrentWeather(
-        @Query("query") country: String
+        @Query("query") country: String,
+        @Query("units") unit: String
     ): Deferred<CurrentWeatherResponse>
 
 }
