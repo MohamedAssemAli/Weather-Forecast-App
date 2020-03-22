@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ForecastApp</string>
+
+    <!--    bottomNav-->
+    <string name="today">Today</string>
+    <string name="days">7 Days</string>
+    <string name="settings">Settings</string>
+</resources>
