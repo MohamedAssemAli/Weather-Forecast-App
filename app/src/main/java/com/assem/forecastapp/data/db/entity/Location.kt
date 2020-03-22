@@ -1,4 +1,4 @@
-package com.assem.forecastapp.data.network.response
+package com.assem.forecastapp.data.db.entity
 
 
 import com.google.gson.annotations.SerializedName
@@ -17,9 +17,5 @@ data class Location(
     @SerializedName("name")
     val name: String,
     @SerializedName("region")
-    val region: String,
-    @SerializedName("timezone_id")
-    val timezoneId: String,
-    @SerializedName("utc_offset")
-    val utcOffset: String
+    val region: String
 )
